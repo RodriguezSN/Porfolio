@@ -1,8 +1,9 @@
-# React + Vite
+Bienvenido a mi Porfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Te invito aque puedas indagar en el y puedas conocerme mejor, si te gusta mi perfil te invito a contactarme
 
-Currently, two official plugins are available:
+Linkedin:
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/sebastian-nicolas-rodriguez-271b26202/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Correo:
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:sebas.rodriguez.is123@gmail.com)
