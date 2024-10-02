@@ -1,10 +1,81 @@
 .divProfilePadre {
-	background-color: red;
+	/* border-radius: 81px;
+	background: linear-gradient(315deg, #160821, #1a0a28);
+	box-shadow: -34px -34px 69px #0e0515, 34px 34px 69px #220d35; */
+	border-radius: 81px;
+	background: linear-gradient(315deg, #160821, #1a0a28);
+	box-shadow: -23px -23px 46px #0e0515, 23px 23px 46px #220d35;
 	display: flex;
+	align-items: center;
 	flex-direction: row;
+	width: 70%;
+	margin: 0;
 }
-
+.presentacion {
+	height: 50vh;
+	width: 60%;
+	align-content: center;
+}
+.titulos {
+	margin: 0;
+	width: 100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+.titulos h3 {
+	font-size: clamp(1.5rem, 2.5vw, 2vh);
+	display: flex;
+	justify-items: start;
+	margin: 0;
+	margin-left: 5%;
+}
+.titulos h1 {
+	margin: 0;
+	font-size: clamp(2rem, 5vw, 4vh);
+	display: flex;
+	justify-items: start;
+	margin-left: 5%;
+	width: 95%;
+}
+.titulos p {
+	margin: 0;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 95%;
+	display: flex;
+	justify-items: start;
+	padding: 0;
+	font-size: clamp(1rem, 1.5vw, 1.6vh);
+	font-weight: 700;
+}
+.enlaces {
+	height: 30%;
+	width: 100%;
+	align-content: center;
+}
+.enlaces button {
+	margin: 3%;
+}
+.imagen {
+	/* border-radius: 171px; */
+	border-radius: 50%;
+	background: linear-gradient(45deg, #160821, #1a0a28);
+	box-shadow: 34px -34px 69px #0e0515, -34px 34px 69px #220d35;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 30%;
+	padding: 0;
+}
 .imagen img {
 	border-radius: 50%;
-	width: 50%;
+	padding: 0;
+	margin: 10%;
+	width: 80%;
+	height: 80%;
+	align-content: center;
 }

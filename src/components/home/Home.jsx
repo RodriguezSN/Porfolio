@@ -1,10 +1,10 @@
 import About from "../about/About";
 import Profile from "../profile/Profile";
 import Proyects from "../Proyects/Proyects";
-
+import style from "./Home.module.css";
 const Home = () => {
 	return (
-		<div>
+		<div className={style.profileComponent}>
 			<Profile />
 			<About />
 			<Proyects />
