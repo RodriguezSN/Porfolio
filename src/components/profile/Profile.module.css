@@ -1,0 +1,10 @@
+.divProfilePadre {
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+}
+
+.imagen img {
+	border-radius: 50%;
+	width: 50%;
+}
