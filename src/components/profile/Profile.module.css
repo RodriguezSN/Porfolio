@@ -58,7 +58,17 @@
 	align-content: center;
 }
 .enlaces button {
+	color: white;
 	margin: 3%;
+	border-radius: 56px;
+	background: linear-gradient(315deg, #110719, #14091e);
+	box-shadow: -5px -5px 10px #08030b, 5px 5px 10px #1e0d2d;
+	color: white;
+	font-size: clamp(1.3rem, 1vw, 1vh);
+}
+.enlaces button a {
+	color: white;
+	font-size: clamp(1.3rem, 1vw, 1vh);
 }
 .imagen {
 	/* border-radius: 171px; */
@@ -72,6 +82,8 @@
 	padding: 0;
 }
 .imagen img {
+	/* border: 2px solid black; */
+	box-shadow: 10px 10px 10px #0e0515, 10px 10px 10px #220d35;
 	border-radius: 50%;
 	padding: 0;
 	margin: 10%;

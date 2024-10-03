@@ -1,0 +1,35 @@
+.navBarPadre {
+	/* background-color: black; */
+
+	display: flex;
+	justify-content: end;
+	margin-right: 13%;
+}
+.icono {
+	margin-left: 15%;
+	width: 20%;
+}
+.buttons {
+	width: 80%;
+	padding: 0;
+}
+.buttons button {
+	/* margin-right: 3%; */
+	margin: 0% 3% 2% 0%;
+	width: 15%;
+	min-height: 4vh;
+	overflow: hidden;
+	border-radius: 56px;
+}
+.buttons button:hover {
+	background: linear-gradient(315deg, #110719, #14091e);
+	box-shadow: -23px -23px 46px #0e0515, 23px 23px 46px #220d35;
+}
+.buttons button:visited {
+	color: white;
+}
+.buttons button h1 {
+	padding: 0;
+	margin: 0;
+	font-size: clamp(1rem, 1vw, 1vh);
+}
