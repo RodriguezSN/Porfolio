@@ -38,12 +38,33 @@ body {
 		rgba(18, 7, 27, 1) 52%,
 		rgba(18, 7, 28, 1) 74%
 	); */
-	background: rgb(11, 4, 17);
+	/* background: rgb(11, 4, 17);
 	background: radial-gradient(
 		circle,
 		rgba(11, 4, 17, 1) 36%,
 		rgba(18, 7, 27, 1) 53%,
 		rgba(11, 4, 17, 1) 68%
+	); */
+	/* background: rgb(7, 3, 11);
+	background: radial-gradient(
+		circle,
+		rgba(7, 3, 11, 1) 36%,
+		rgba(18, 7, 27, 1) 53%,
+		rgba(3, 1, 4, 1) 68%
+	); */
+	background: rgb(7, 3, 11);
+	background: radial-gradient(
+		circle,
+		rgba(7, 3, 11, 1) 43%,
+		rgba(18, 7, 27, 1) 49%,
+		rgba(3, 1, 4, 1) 55%
+	);
+	background: rgb(7, 3, 11);
+	background: linear-gradient(
+		96deg,
+		rgba(7, 3, 11, 1) 43%,
+		rgba(18, 7, 27, 1) 49%,
+		rgba(3, 1, 4, 1) 55%
 	);
 	margin: 0;
 	display: flex;

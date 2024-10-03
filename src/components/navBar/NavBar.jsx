@@ -18,9 +18,9 @@ const NavBar = () => {
 					<path
 						fill="none"
 						stroke="white"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
+						strokeLinecap="round"
+						strokeLinejoin="round"
+						strokeWidth="2"
 						d="m10 9l-7 8l7 8M22 9l7 8l-7 8M18 7l-4 20"
 					/>
 				</svg>

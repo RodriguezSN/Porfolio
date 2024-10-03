@@ -1,9 +1,19 @@
 import style from "./Profile.module.css";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
+// import Swal from "sweetalert2/dist/sweetalert2.js";
+
+// or via CommonJS
 const Profile = () => {
 	const handleCopy = () => {
 		navigator.clipboard.writeText("sebas.rodriguez.is123@gmail.com");
-		alert("Correo copiado");
+		// alert("Correo copiado");
+		Swal.fire({
+			title: "Copiado!",
+			text: "Correo copiado con exito",
+			icon: "success",
+			confirmButtonText: "Perfecto"
+		});
 	};
 	return (
 		<div className={style.divProfilePadre}>
