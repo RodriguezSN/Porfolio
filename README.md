@@ -7,3 +7,5 @@ Linkedin:
 
 Correo:
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:sebas.rodriguez.is123@gmail.com)
+
+![img](https://res.cloudinary.com/dwvdvzg1k/image/upload/v1728431123/yzisonvcv9qfl3hahxs8.png)
