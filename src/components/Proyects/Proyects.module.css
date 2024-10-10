@@ -6,20 +6,21 @@
 	align-items: center;
 	flex-direction: column;
 	margin: 0;
-	margin-top: 2%;
+	margin-top: 5%;
 	height: 50vh;
 	width: 70%;
 	align-items: center;
 }
 
 .titulo {
-	background-color: yellow;
+	/* background-color: yellow; */
 	margin: 0;
 	height: 25%;
 	width: 100%;
 }
 .titulo h1 {
 	margin: 0;
+	margin-top: 3%;
 }
 .divProyectos {
 	width: 90%;
@@ -28,27 +29,89 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	background-color: red;
-	margin: 0;
-	padding: 0;
+
+	/* background-color: red; */
 }
 
 .divProyecto {
-	height: auto;
-	width: 40%;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 70%;
 	background-color: black;
 	margin: 0;
 	padding: 0;
-	border-radius: 10%;
+	border-radius: 15px;
 }
+.about {
+	width: 55%;
+	/* background-color: antiquewhite; */
+	height: auto;
+	padding: 5%;
+	overflow: auto;
+	overflow-y: hidden;
+}
+.about::-webkit-scrollbar {
+	display: none;
+}
+.about:hover {
+	overflow-y: scroll;
+}
+.tituloAbout {
+	height: 20%;
+	/* background-color: lawngreen; */
+	/* margin: 0; */
+}
+.tituloAbout h1 {
+	margin: 0;
+}
+.descripcion {
+	margin: 0;
+	/* background-color: blue; */
+	height: auto;
+}
+.texto {
+	height: 80%;
+}
+.texto p {
+	margin: 0;
+	padding-top: 10%;
+}
+.texto h4 {
+	display: flex;
+	justify-content: start;
+	margin-left: 4%;
+}
+.tecnologias {
+	/* background-color: yellow; */
+	width: 100%;
+	height: 20%;
+	display: flex;
+}
+.tecnologiaImg {
+	/* background-color: green; */
+	width: 20%;
+	height: 100%;
+	margin: 0% 2% 5% 2%;
+}
+.tecnologiaImg img {
+	width: 100%;
+}
+.enlaces {
+	width: 45%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+}
+
 a {
 	border-radius: 0;
 	margin: 0;
 	padding: 0;
 }
-img {
+.imgEnlace {
 	border-radius: 10%;
-	width: 100%;
+	width: 90%;
 	margin: 0;
 	padding: 0;
 }

@@ -8,8 +8,8 @@ const Home = () => {
 		<div className={style.profileComponent}>
 			<Profile />
 			<About />
-			<Construccion />
 			<Proyects />
+			<Construccion />
 		</div>
 	);
 };
