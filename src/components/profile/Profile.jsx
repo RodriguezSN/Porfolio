@@ -30,9 +30,10 @@ const Profile = () => {
 				<div className={style.enlaces}>
 					<button>
 						<a
-							href="../../public/Cv-Sebastian Rodriguez.pdf"
+							href="/Cv-Sebastian Rodriguez.pdf"
 							dowload="CV-Rodriguez-Sebastian"
-							target="black"
+							target="_black"
+							rel="noopener noreferrer"
 						>
 							CV
 						</a>
